@@ -1,0 +1,30 @@
+
+body {
+  background-image: url("https://i.ytimg.com/vi/b6hoBp7Hk-A/maxresdefault.jpg");
+}
+h1 {
+  text-align: center;
+  color: yellow;
+  font-family: 'Playfair Display', serif;
+}
+h2 {
+  text-align: center;
+  color: yellow;
+  font-family: 'Cinzel', serif;
+}
+p {color: yellow;}
+
+.column {
+  float: left;
+  width: 200px;
+  padding: 5em;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
